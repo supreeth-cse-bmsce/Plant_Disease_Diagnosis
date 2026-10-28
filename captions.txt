@@ -1,0 +1,14 @@
+Figure captions exactly as in PST_manuscript.docx (Fig. 3 = two images, a and b)
+
+Fig. 1. Accuracy (original run) vs. CPU inference latency on PlantVillage; markers show the mean of two latency sessions, bars the range, and bubble size the parameter count. ResNet18 is a non-lightweight reference, not an edge-deployment candidate.
+
+Fig. 2. PlantVillage accuracy under increasing severity of Gaussian blur, Gaussian noise, and brightness/contrast shift (severity 0 = clean), for all eight models (original run).
+
+Fig. 3. Confusion matrices on the PlantVillage test set for MobileNetV3-Small (left) and MobileViT-S (right).
+
+Fig. 4. Grad-CAM maps for four PlantVillage test images (columns: two diseased potato/tomato leaves, two healthy soybean leaves) for each of the eight models (rows, labelled), computed on the last convolutional layer.
+
+Fig. 5. PlantVillage (laboratory) vs. PlantDoc (field-condition) accuracy for all eight models, each trained and tested within its own dataset. PlantDoc bars show the mean of three training runs (error bars: SD; dots: individual runs), ordered by mean; the three hybrid models (left) have higher means than all five CNN models (right), although individual runs overlap.
+
+Fig. 6. Accuracy of PlantVillage-trained models on PlantDoc images without fine-tuning (bars, with 95% bootstrap CIs; STRICT classes, restricted decision) compared with the same architectures trained within PlantDoc (diamonds, three-run mean; not directly comparable: different class sets and test images).
+
